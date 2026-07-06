@@ -1,0 +1,22 @@
+# KiCad cache
+*.kicad_prl
+fp-info-cache
+
+# Backups
+*-backups/
+*.bak
+*.tmp
+*.lck
+
+# Intermediate files
+*.net
+*.dsn
+*.ses
+
+# OS
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# VS Code
+.vscode/
