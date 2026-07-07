@@ -5,430 +5,6 @@
 	(uuid "dc113185-26d3-4d92-82e5-eafcaf8aa8e7")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Adafruit Feather M0 Express-eagle-import:LED0805_NOOUTLINE"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at -1.27 4.445 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.0795)
-					)
-				)
-			)
-			(property "Value" ""
-				(at -1.27 -2.794 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.0795)
-					)
-				)
-			)
-			(property "Footprint" "Adafruit Feather M0 Express:CHIPLED_0805_NOOUTLINE"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "LED\n\n0603 - 0603 Surface Mount Package\n\n2mA:\n\n• Green LED - Low Power (3.9mcd, 2ma, 1.7Vf) - Digikey: 475-2709-2-ND\n• Orange LED - Low Power (9.8mcd, 2ma, 1.8Vf) - Digikey: 475-1194-2-ND\n• Red LED - Low Power (5mcd, 2ma, 1.8Vf) - Digikey: 475-1195-2-ND\n• Yellow LED - Low Power (7mcd, 2ma, 1.8Vf) - Digikey: 475-1196-2-ND\n\n5mA:\n\n• Blue LED - Low Power (17mcd, 5ma, 2.9Vf) - Digikey: LNJ937W8CRACT-ND\n\n0805 - 0805 Surface Mount Package\n\n2mA:\n\n• Red LED (8.8mcd, 2mA, 1.8Vf, Clear) - Low Power [Digikey: 475-2510-1-ND]\n• Green LED (5mcd, 2mA, 1.8Vf, Clear) - Low Power [Digikey: 475-2730-1-ND]\n• Yellow LED (11.3mcd, 2mA, 1.8Vf, Clear) - Low Power [Digikey: 475-2555-1-ND]\n\n20mA:\n\n• Red LED (104mcd, 20mA, Diffused) - LS R976 [Digikey: 475-1278-6-ND]\n• Red LED (12mcd, 20mA, 2.0Vf, Clear) - APT2012EC [Digikey: 754-1128-1-ND]\n• Green LED (15mcd, 20mA, 2.2Vf, Clear) - APT2012GC [Digikey: 754-1131-1-ND]\n• Orange LED (160mcd, 20mA, 2.1Vf, Clear) - APT2012SECK [Digikey: 754-1130-1-ND]\n\n• 1206 - 1206 Surface Mount Package\n\n• Green LED (26mcd, 20mA, Diffused) - LG N971  [Digikey: 475-1407-6-ND]\n• Red LED (15mcd, 20mA, Diffused) - LH N974 [Digikey: 475-1416-6-ND]\n\n• Cree - Cree High-Power Surface Mount LEDs\n\n• XPEBWT-L1-0000-00D50 - White 111lm 350mA 2.9Vf 6200K 110°\n• XTEAWT-00-0000-00000LEE3 - White 114lm 350mA 2.85Vf 5000K 115°\n\n• Everlight - Everlight 45-21 Series Surface Mount LEDs\n\n• 45-21/QK2C-B2832AC2CB2/2T - Warm White 2000mcd 20mA 3.25Vf 3050K 120°\n• 45-21/LK2C-B38452C4CB2/2T - Nuetral White 2000mcd 20mA 3.25Vf 4150K 120°\n• 45-21/LK2C-B50634C6CB2/2T - Cold White 2200mcd 20mA 3.25Vf 5650K 120°\n\n• PLCC2 Reverse Mount\n\n• LS T77K-J1L2-1-0-2-R18-Z - Red 11.25mcd 2mA 1.8Vf 630nm 120°\n• LO T77K-L1M2-24-Z - Orange 19.6mcd 2mA 1.8Vf 606nm 120°\n• LY T77K-K2M1-26-Z - Yellow 15.7mcd 2mA 1.8Vf 587nm 120°"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "LED0805_NOOUTLINE_1_0"
-				(polyline
-					(pts
-						(xy -2.54 1.27) (xy -2.54 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -1.27) (xy 0 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 1.27) (xy -0.635 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.9525 2.8575) (xy -0.3175 2.2225)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 1.27) (xy 0.635 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3175 2.2225) (xy 0 3.175)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 3.175) (xy -0.9525 2.8575)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.3175 2.8575) (xy 0.9525 2.2225)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.9525 2.2225) (xy 1.27 3.175)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 3.175) (xy 0.3175 2.8575)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "A"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "C"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Adafruit Feather M0 Express-eagle-import:RESISTOR_0603_NOOUT"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.016 1.016)
-						(thickness 0.2032)
-						(bold yes)
-					)
-				)
-			)
-			(property "Footprint" "Adafruit Feather M0 Express:0603-NO"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Resistors\n\nFor new designs, use the packages preceded by an '_' character since they are more reliable:\n\nThe following footprints should be used on most boards:\n\n• _0402 - Standard footprint for regular board layouts\n• _0603 - Standard footprint for regular board layouts\n• _0805 - Standard footprint for regular board layouts\n• _1206 - Standard footprint for regular board layouts\n\nFor extremely tight-pitch boards where space is at a premium, the following 'micro-pitch' footprints can be used (smaller pads, no silkscreen outline, etc.):\n\n• _0402MP - Micro-pitch footprint for very dense/compact boards\n• _0603MP - Micro-pitch footprint for very dense/compact boards\n• _0805MP - Micro-pitch footprint for very dense/compact boards\n• _1206MP - Micro-pitch footprint for very dense/compact boards"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "RESISTOR_0603_NOOUT_1_0"
-				(polyline
-					(pts
-						(xy -2.54 1.27) (xy 2.54 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -1.27) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy 2.54 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -1.27) (xy -2.54 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:Conn_01x02_Pin"
 			(pin_names
 				(offset 1.016)
@@ -2948,20 +2524,21 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:FerriteBead"
+		(symbol "Device:Crystal"
 			(pin_numbers
 				(hide yes)
 			)
 			(pin_names
-				(offset 0)
+				(offset 1.016)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "FB"
-				(at -3.81 0.635 90)
+			(property "Reference" "Y"
+				(at 0 3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -2970,8 +2547,8 @@
 					)
 				)
 			)
-			(property "Value" "FerriteBead"
-				(at 3.81 0 90)
+			(property "Value" "Crystal"
+				(at 0 -3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -2981,7 +2558,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at -1.778 0 90)
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -3002,7 +2579,7 @@
 					)
 				)
 			)
-			(property "Description" "Ferrite bead"
+			(property "Description" "Two pin crystal"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3013,7 +2590,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "L ferrite bead inductor filter"
+			(property "ki_keywords" "quartz ceramic resonator oscillator"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3024,7 +2601,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "Inductor_* L_* *Ferrite*"
+			(property "ki_fp_filters" "Crystal*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3035,10 +2612,10 @@
 					)
 				)
 			)
-			(symbol "FerriteBead_0_1"
+			(symbol "Crystal_0_1"
 				(polyline
 					(pts
-						(xy -2.7686 0.4064) (xy -1.7018 2.2606) (xy 2.7686 -0.3048) (xy 1.6764 -2.159) (xy -2.7686 0.4064)
+						(xy -2.54 0) (xy -1.905 0)
 					)
 					(stroke
 						(width 0)
@@ -3050,10 +2627,21 @@
 				)
 				(polyline
 					(pts
-						(xy 0 1.27) (xy 0 1.2954)
+						(xy -1.905 -1.27) (xy -1.905 1.27)
 					)
 					(stroke
-						(width 0)
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.143 2.54)
+					(end 1.143 -2.54)
+					(stroke
+						(width 0.3048)
 						(type default)
 					)
 					(fill
@@ -3062,7 +2650,19 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -1.27) (xy 0 -1.2192)
+						(xy 1.905 -1.27) (xy 1.905 1.27)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.905 0)
 					)
 					(stroke
 						(width 0)
@@ -3073,11 +2673,11 @@
 					)
 				)
 			)
-			(symbol "FerriteBead_1_1"
+			(symbol "Crystal_1_1"
 				(pin passive line
-					(at 0 3.81 270)
-					(length 2.54)
-					(name ""
+					(at -3.81 0 0)
+					(length 1.27)
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3093,9 +2693,210 @@
 					)
 				)
 				(pin passive line
-					(at 0 -3.81 90)
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:LED"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
 					(length 2.54)
-					(name ""
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4376,6 +4177,105 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Mechanical:MountingHole_Pad"
 			(pin_numbers
 				(hide yes)
@@ -5508,145 +5408,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+3.3VA"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "+3.3VA"
-				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "+3.3VA_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3.3VA_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+BATT"
 			(power global)
 			(pin_numbers
@@ -6182,7 +5943,7 @@
 	)
 	(rectangle
 		(start 86.36 111.76)
-		(end 123.19 134.62)
+		(end 118.11 134.62)
 		(stroke
 			(width 0)
 			(type dash_dot_dot)
@@ -6203,6 +5964,18 @@
 			(type none)
 		)
 		(uuid "5016530b-043c-48ed-9c3d-08efcbde7c41")
+	)
+	(rectangle
+		(start 180.34 45.72)
+		(end 210.82 76.2)
+		(stroke
+			(width 0)
+			(type dash_dot_dot)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "5a2bc325-2231-4c26-b86e-7227b139afd1")
 	)
 	(rectangle
 		(start 53.34 115.57)
@@ -6227,18 +6000,6 @@
 			(type none)
 		)
 		(uuid "7c706394-67e7-427a-8b47-4909e8d6eab8")
-	)
-	(rectangle
-		(start 128.27 113.03)
-		(end 167.64 139.7)
-		(stroke
-			(width 0)
-			(type dash_dot_dot)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "9543f1e5-cf20-4120-abb6-7d17cfcd88b3")
 	)
 	(rectangle
 		(start 67.31 17.78)
@@ -6341,16 +6102,6 @@
 		)
 		(uuid "2e477ad4-64a4-4d2d-9cce-e6a9cf157119")
 	)
-	(text "Filtering for 3.3VA"
-		(exclude_from_sim no)
-		(at 150.114 115.062 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "4c439c66-9559-424b-b19f-728650b94159")
-	)
 	(text "Reset_button\n"
 		(exclude_from_sim no)
 		(at 26.67 19.304 0)
@@ -6360,6 +6111,16 @@
 			)
 		)
 		(uuid "4dee60e0-d80f-445e-a331-187ac1d16377")
+	)
+	(text "HSE osc\n"
+		(exclude_from_sim no)
+		(at 186.182 48.514 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "77a32217-f545-4e35-8771-78a6a4e4c80f")
 	)
 	(text "power flags\n"
 		(exclude_from_sim no)
@@ -6428,22 +6189,10 @@
 		(uuid "046e497c-faf9-4064-a10f-0292f12282d7")
 	)
 	(junction
-		(at 250.19 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0605277d-5889-42f6-a1d3-bf176c1aa4b8")
-	)
-	(junction
 		(at 252.73 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0a6f7217-0b3b-41fe-ab27-3d3d91d86433")
-	)
-	(junction
-		(at 146.05 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0daf5711-0ed1-415f-be11-840da04ce762")
 	)
 	(junction
 		(at 35.56 180.34)
@@ -6458,22 +6207,16 @@
 		(uuid "1df643e8-bdc2-4501-8399-e69be51150bb")
 	)
 	(junction
-		(at 158.75 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "24dbdeb3-a8b2-4516-b8be-9da2f7a04187")
-	)
-	(junction
 		(at 252.73 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "24f2dbc3-4b07-43d5-b72a-83bb605e75bf")
 	)
 	(junction
-		(at 137.16 124.46)
+		(at 189.23 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "348aed0e-c47d-4ebf-830e-ac125adf74e0")
+		(uuid "348a4ae8-e432-4084-975b-3faffac261b5")
 	)
 	(junction
 		(at 82.55 30.48)
@@ -6482,10 +6225,10 @@
 		(uuid "379b7c87-75b3-46c5-874b-17d173b36a3a")
 	)
 	(junction
-		(at 245.11 43.18)
+		(at 201.93 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3b3e07c9-5247-4198-bc8f-fb5dadc797a4")
+		(uuid "4feb9e2a-5ace-4924-8594-51e5c82ac33e")
 	)
 	(junction
 		(at 138.43 80.01)
@@ -6504,6 +6247,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5de2994b-98c4-4d97-8184-de9db3e23c5e")
+	)
+	(junction
+		(at 195.58 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5faef855-b784-4c90-beb9-d137c9ac3569")
+	)
+	(junction
+		(at 250.19 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "84815a05-89b1-4312-8806-eab0b10e107b")
 	)
 	(junction
 		(at 72.39 154.94)
@@ -6560,20 +6315,24 @@
 		(uuid "c69e4607-193d-43e6-8f84-2ea12acd8262")
 	)
 	(junction
-		(at 146.05 132.08)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c6adc605-2a77-4ab6-817c-2b2a7c8c359f")
-	)
-	(junction
 		(at 99.06 170.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ebdd7c1f-e61f-4364-a61d-e958a56d40e7")
 	)
+	(junction
+		(at 255.27 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f5ec77ec-0b47-43dc-a08c-1e9d58355a46")
+	)
 	(no_connect
 		(at 138.43 90.17)
 		(uuid "0b8d94b9-5fa8-409f-9aaf-9cc5cb860bef")
+	)
+	(no_connect
+		(at 234.95 121.92)
+		(uuid "1a6eefa0-4675-441e-957d-3dde592ea639")
 	)
 	(no_connect
 		(at 138.43 92.71)
@@ -6598,16 +6357,6 @@
 			(type default)
 		)
 		(uuid "01fefe51-003c-4f89-9f99-cfc86bff79a6")
-	)
-	(wire
-		(pts
-			(xy 245.11 38.1) (xy 245.11 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "027a7559-6891-4404-bb58-cc2595accd9e")
 	)
 	(wire
 		(pts
@@ -6661,13 +6410,53 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 43.18) (xy 250.19 43.18)
+			(xy 189.23 50.8) (xy 189.23 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2282121c-58ab-4817-86a4-a7478a57e3a0")
+		(uuid "103f13a6-41b2-4f2d-b5f5-5db9c4a75c83")
+	)
+	(wire
+		(pts
+			(xy 250.19 139.7) (xy 252.73 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12dfbdb8-9296-46c9-b96b-753b557bd9f6")
+	)
+	(wire
+		(pts
+			(xy 189.23 58.42) (xy 189.23 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1931aab9-480d-4ce3-9e59-9a179124d8b2")
+	)
+	(wire
+		(pts
+			(xy 199.39 58.42) (xy 201.93 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20594c8c-a2f2-432e-a49d-dfbb3e5f9840")
+	)
+	(wire
+		(pts
+			(xy 255.27 43.18) (xy 260.35 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20d8815b-e4a8-4f47-87d3-f9bca49cc238")
 	)
 	(wire
 		(pts
@@ -6701,6 +6490,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 172.72) (xy 160.02 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2814f4e6-521d-4638-98d1-4169ce1bd954")
+	)
+	(wire
+		(pts
 			(xy 64.77 91.44) (xy 62.23 91.44)
 		)
 		(stroke
@@ -6731,13 +6530,13 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 130.81) (xy 158.75 134.62)
+			(xy 201.93 58.42) (xy 201.93 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2f6cbf65-7894-4768-bc3c-816e648de4c1")
+		(uuid "3054807b-bd66-4732-94cf-e979e8d31db1")
 	)
 	(wire
 		(pts
@@ -6778,16 +6577,6 @@
 			(type default)
 		)
 		(uuid "33fca77b-72da-4aeb-beb3-e441d8a6b0ca")
-	)
-	(wire
-		(pts
-			(xy 137.16 123.19) (xy 137.16 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "341d1bd3-85de-4c21-8921-b37ec9095933")
 	)
 	(wire
 		(pts
@@ -6861,23 +6650,13 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 166.37) (xy 160.02 165.1)
+			(xy 160.02 165.1) (xy 160.02 167.64)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(uuid "4da2229f-1eb3-4f72-a4cc-9b94f8f92abe")
-	)
-	(wire
-		(pts
-			(xy 148.59 124.46) (xy 146.05 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52c90d71-9181-4ae3-b91a-a12b09cca95c")
 	)
 	(wire
 		(pts
@@ -6901,6 +6680,26 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 53.34) (xy 201.93 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58b40f5d-c44a-4f1f-8c03-f061fae30564")
+	)
+	(wire
+		(pts
+			(xy 195.58 68.58) (xy 189.23 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d66f77a-3730-47e0-a118-f4406d78e87d")
+	)
+	(wire
+		(pts
 			(xy 72.39 35.56) (xy 77.47 35.56)
 		)
 		(stroke
@@ -6911,26 +6710,6 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 123.19) (xy 158.75 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f5a12c0-d679-4797-8761-7ccb5ab3e83c")
-	)
-	(wire
-		(pts
-			(xy 146.05 124.46) (xy 146.05 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "61257c25-c3d6-4209-bce9-fe6ae245555e")
-	)
-	(wire
-		(pts
 			(xy 91.44 170.18) (xy 99.06 170.18)
 		)
 		(stroke
@@ -6938,6 +6717,16 @@
 			(type default)
 		)
 		(uuid "62275d5a-e610-4b6c-bbc1-e9c7084660c4")
+	)
+	(wire
+		(pts
+			(xy 201.93 68.58) (xy 195.58 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6241cd04-7c64-4917-a45a-50cc79b25172")
 	)
 	(wire
 		(pts
@@ -7001,16 +6790,6 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 125.73) (xy 158.75 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77df6a22-8e7a-460a-8f4d-828c1bf96a04")
-	)
-	(wire
-		(pts
 			(xy 39.37 92.71) (xy 35.56 92.71)
 		)
 		(stroke
@@ -7048,26 +6827,6 @@
 			(type default)
 		)
 		(uuid "7e8da88f-3b35-44fc-bd00-5e50bb21aaa7")
-	)
-	(wire
-		(pts
-			(xy 160.02 176.53) (xy 160.02 175.26)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "857bfdf3-fa94-450c-ad9d-c658d6d7b0f8")
-	)
-	(wire
-		(pts
-			(xy 137.16 130.81) (xy 137.16 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89b1b034-f7f3-4c62-b327-c4ee1f89fd90")
 	)
 	(wire
 		(pts
@@ -7151,7 +6910,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 182.88) (xy 160.02 185.42)
+			(xy 160.02 184.15) (xy 160.02 185.42)
 		)
 		(stroke
 			(width 0.1524)
@@ -7171,6 +6930,16 @@
 	)
 	(wire
 		(pts
+			(xy 250.19 38.1) (xy 250.19 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ef190cd-264a-4f17-a722-71511ae51065")
+	)
+	(wire
+		(pts
 			(xy 87.63 35.56) (xy 92.71 35.56)
 		)
 		(stroke
@@ -7178,16 +6947,6 @@
 			(type default)
 		)
 		(uuid "9f242dc7-77c2-4d72-a8ed-e15f4bace092")
-	)
-	(wire
-		(pts
-			(xy 137.16 132.08) (xy 146.05 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f86590c-417a-4775-89d3-a375eab4fc62")
 	)
 	(wire
 		(pts
@@ -7201,23 +6960,13 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 124.46) (xy 158.75 124.46)
+			(xy 245.11 39.37) (xy 245.11 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "af9d7d31-3c4b-4c15-961f-fe0399faadb3")
-	)
-	(wire
-		(pts
-			(xy 146.05 132.08) (xy 146.05 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b200e26d-eea3-4e79-9789-5bbda99b7c4c")
+		(uuid "b7b84800-a612-4855-9dfd-5cb8d7ac8275")
 	)
 	(wire
 		(pts
@@ -7251,6 +7000,16 @@
 	)
 	(wire
 		(pts
+			(xy 234.95 50.8) (xy 189.23 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb41c670-c96c-469b-8c8a-ab0d06b8bc23")
+	)
+	(wire
+		(pts
 			(xy 39.37 97.79) (xy 35.56 97.79)
 		)
 		(stroke
@@ -7258,6 +7017,16 @@
 			(type default)
 		)
 		(uuid "bc7f9568-8fc3-4613-9fd2-ac83d7cc5a83")
+	)
+	(wire
+		(pts
+			(xy 191.77 58.42) (xy 189.23 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdbd8529-2214-4963-80cc-0fc4d8535b09")
 	)
 	(wire
 		(pts
@@ -7391,13 +7160,13 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 124.46) (xy 146.05 124.46)
+			(xy 201.93 53.34) (xy 234.95 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d4c22e16-539d-4ccd-9a9c-c0429262c4b2")
+		(uuid "d35cd5cd-73c0-4021-8a6a-b3becc44dc2e")
 	)
 	(wire
 		(pts
@@ -7448,36 +7217,6 @@
 			(type default)
 		)
 		(uuid "de2d9aa5-3d93-453c-8bcd-3c697c02a3d9")
-	)
-	(wire
-		(pts
-			(xy 137.16 125.73) (xy 137.16 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df530082-9727-40c6-a96b-fe2e75477a46")
-	)
-	(wire
-		(pts
-			(xy 146.05 132.08) (xy 146.05 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0145ca7-3a90-4878-9f03-3b9991937ee3")
-	)
-	(wire
-		(pts
-			(xy 260.35 36.83) (xy 260.35 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3597157-29b7-43cd-805e-ce34ac004c7b")
 	)
 	(wire
 		(pts
@@ -7591,6 +7330,16 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 34.29) (xy 237.49 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f57213e2-42bb-47b9-b497-0e3a8b544f79")
+	)
+	(wire
+		(pts
 			(xy 82.55 35.56) (xy 87.63 35.56)
 		)
 		(stroke
@@ -7621,6 +7370,16 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 33.02) (xy 245.11 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "facd52fd-927e-47bf-bc7b-3bc4dff5e1c9")
+	)
+	(wire
+		(pts
 			(xy 105.41 69.85) (xy 105.41 72.39)
 		)
 		(stroke
@@ -7628,6 +7387,16 @@
 			(type default)
 		)
 		(uuid "fd5ed76e-bfe2-4473-9bde-95ae0e723cc0")
+	)
+	(wire
+		(pts
+			(xy 245.11 33.02) (xy 245.11 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff82bf58-1a38-4205-98d3-88aed3cbc6e5")
 	)
 	(label "USBR_D+"
 		(at 111.76 77.47 0)
@@ -9369,30 +9138,6 @@
 			)
 		)
 	)
-	(global_label "EP"
-		(shape input)
-		(at 250.19 139.7 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f765c360-9306-419e-a034-f90d08fa4b17")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 250.19 145.1042 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "MOSI"
 		(shape bidirectional)
 		(at 270.51 76.2 0)
@@ -9417,114 +9162,6 @@
 			)
 		)
 	)
-	(netclass_flag ""
-		(length 1)
-		(shape round)
-		(at 138.43 58.42 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0ac4ffb4-fded-4038-9207-86dba3c81a32")
-		(property "Netclass" "power"
-			(at 139.43 57.7215 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at -135.89 -58.42 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 1)
-		(shape round)
-		(at 38.1 34.29 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1525966d-8164-4dbc-a415-5ce0f6e085ab")
-		(property "Netclass" "signal"
-			(at 38.7985 33.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at -191.77 -19.05 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 1)
-		(shape round)
-		(at 139.7 124.46 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "eebe6393-d0e4-4c21-b9e7-f63f3d75788b")
-		(property "Netclass" "power"
-			(at 140.3985 123.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at -134.62 7.62 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
 	(symbol
 		(lib_id "power:GND")
 		(at 160.02 185.42 0)
@@ -9538,7 +9175,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "001d1276-b464-4c5f-84d3-c90dab8aeaa8")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR041"
 			(at 160.02 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -9599,7 +9236,7 @@
 		(instances
 			(project "feather-SAMD21&WD"
 				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
-					(reference "#PWR045")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -9616,8 +9253,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "085463b8-eb7a-4dfc-b271-50e812b1ca71")
-		(property "Reference" "J3"
-			(at 57.785 63.5 0)
+		(property "Reference" "J5"
+			(at 69.596 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9627,7 +9264,7 @@
 			)
 		)
 		(property "Value" "right_header"
-			(at 55.118 65.786 0)
+			(at 58.674 58.674 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9636,7 +9273,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical"
 			(at 57.15 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -9708,86 +9345,7 @@
 		(instances
 			(project "feather-SAMD21&WD"
 				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 124.46 177.8 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "095e8a36-3562-4b18-8972-351da11ac23b")
-		(property "Reference" "#PWR052"
-			(at 124.46 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 124.46 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 124.46 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 124.46 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a1c0a669-e346-4891-b817-0a6b43dbf496")
-		)
-		(instances
-			(project "feather-SAMD21&WD"
-				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
-					(reference "#PWR052")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -9804,7 +9362,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0b8763cf-9438-4067-9c50-52bc32f5aadd")
-		(property "Reference" "C?"
+		(property "Reference" "C4"
 			(at 81.28 28.956 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9868,86 +9426,7 @@
 		(instances
 			(project "feather-SAMD21&WD"
 				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
-					(reference "C?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Adafruit Feather M0 Express-eagle-import:LED0805_NOOUTLINE")
-		(at 160.02 180.34 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1233fd2c-8f51-4841-9549-062e5d2ba43d")
-		(property "Reference" "L2"
-			(at 164.465 179.07 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-			)
-		)
-		(property "Value" "RED"
-			(at 157.226 179.07 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-			)
-		)
-		(property "Footprint" "Adafruit Feather M0 Express:CHIPLED_0805_NOOUTLINE"
-			(at 160.02 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 160.02 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 160.02 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "C"
-			(uuid "1f7c33b5-2861-4f11-a7e3-8575df7faad2")
-		)
-		(pin "A"
-			(uuid "33a094e4-442e-42ee-abea-b02924a65638")
-		)
-		(instances
-			(project "feather-SAMD21&WD"
-				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
-					(reference "L2")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -9964,7 +9443,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "14371006-9366-4b46-ad32-109f3d41b14b")
-		(property "Reference" "J9"
+		(property "Reference" "J3"
 			(at 36.576 170.942 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10028,7 +9507,164 @@
 		(instances
 			(project "feather-SAMD21&WD"
 				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
-					(reference "J9")
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 124.46 181.61 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "146f367b-4ccc-48aa-aa19-4c654999a174")
+		(property "Reference" "H4"
+			(at 127 180.3399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 127 182.8799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.5mm"
+			(at 124.46 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 124.46 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "feather-SAMD21&WD"
+				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 245.11 36.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "19e4453e-3429-478b-bf64-3d1708cacccc")
+		(property "Reference" "C9"
+			(at 240.284 34.798 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 239.522 36.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 245.11 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 245.11 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 245.11 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "79f25a7e-ba87-4f6e-b7c3-c584b1765664")
+		)
+		(pin "2"
+			(uuid "97c750ac-0192-48dc-811d-5203d3dbc188")
+		)
+		(instances
+			(project "feather-SAMD21&WD"
+				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -10046,7 +9682,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "19f4f979-8d61-4a33-ae1c-18caa6bef55f")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR036"
 			(at 138.43 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -10106,126 +9742,48 @@
 		(instances
 			(project "feather-SAMD21&WD"
 				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
-					(reference "#PWR028")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 110.49 125.73 180)
+		(lib_id "Mechanical:MountingHole")
+		(at 124.46 173.99 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "21a27220-74b0-40e4-bbd3-556be29b9f37")
-		(property "Reference" "#FLG05"
-			(at 110.49 127.635 0)
-			(hide yes)
+		(uuid "201a14ff-0ee4-4312-a696-baa3cbc9741c")
+		(property "Reference" "H3"
+			(at 127 172.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "PWR_FLAG"
-			(at 110.49 130.81 0)
-			(hide yes)
+		(property "Value" "MountingHole"
+			(at 127 175.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 110.49 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 110.49 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 110.49 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "00958b55-48d5-43e7-a7e8-b634e0a0e320")
-		)
-		(instances
-			(project "feather-SAMD21&WD"
-				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
-					(reference "#FLG05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 158.75 134.62 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "27f27378-8d71-4136-958c-167a1d668f45")
-		(property "Reference" "#PWR039"
-			(at 158.75 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 159.004 138.938 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 158.75 134.62 0)
+		(property "Footprint" "MountingHole:MountingHole_2.5mm"
+			(at 124.46 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10236,7 +9794,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 134.62 0)
+			(at 124.46 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10246,8 +9804,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 158.75 134.62 0)
+		(property "Description" "Mounting Hole without connection"
+			(at 124.46 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10256,91 +9814,11 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "1"
-			(uuid "546d4889-925c-4d13-87ce-b96cb863ed5a")
 		)
 		(instances
 			(project "feather-SAMD21&WD"
 				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
-					(reference "#PWR039")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3VA")
-		(at 110.49 125.73 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2f8f2649-b786-4c30-8450-c6dd4582259d")
-		(property "Reference" "#PWR05"
-			(at 110.49 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3VA"
-			(at 109.22 120.65 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 110.49 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 110.49 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
-			(at 110.49 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e1c97d78-2791-4ca1-a6a6-4c857ee66cc9")
-		)
-		(instances
-			(project "feather-SAMD21&WD"
-				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
-					(reference "#PWR05")
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -10357,7 +9835,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "305b3f1e-912e-41f7-add4-530c4c5e5012")
-		(property "Reference" "J10"
+		(property "Reference" "J7"
 			(at 93.726 163.83 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10421,7 +9899,7 @@
 		(instances
 			(project "feather-SAMD21&WD"
 				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
-					(reference "J10")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -10439,7 +9917,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "31c1973c-7f0a-4a0e-a31a-91d9f7e0e001")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR018"
 			(at 72.39 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -10500,7 +9978,7 @@
 		(instances
 			(project "feather-SAMD21&WD"
 				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
-					(reference "#PWR050")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -10517,7 +9995,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "32f19588-0b78-4663-8286-19efba3b0c1a")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR011"
 			(at 41.91 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -10578,7 +10056,7 @@
 		(instances
 			(project "feather-SAMD21&WD"
 				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
-					(reference "#PWR019")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -10597,7 +10075,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "33ca4102-2251-451e-bf92-794ce79ef65e")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR034"
 			(at 125.73 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -10658,7 +10136,88 @@
 		(instances
 			(project "feather-SAMD21&WD"
 				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
-					(reference "#PWR029")
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 201.93 66.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "341718d5-53b6-4887-9ba0-16f6a7c3a6a6")
+		(property "Reference" "C8"
+			(at 208.788 67.056 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "22pf"
+			(at 208.788 64.516 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 201.93 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 201.93 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0db8d661-9f8d-4f14-a6c5-e57fdb49f03f")
+		)
+		(pin "2"
+			(uuid "0948a8c8-81ed-4154-a86d-54b6679bbed5")
+		)
+		(instances
+			(project "feather-SAMD21&WD"
+				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -10676,7 +10235,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "384d1752-72c9-47ce-a68a-7c3bd0f15342")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR01"
 			(at 22.86 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -10737,7 +10296,7 @@
 		(instances
 			(project "feather-SAMD21&WD"
 				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
-					(reference "#PWR020")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -10755,7 +10314,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "39cc9ea6-d9df-4f1a-902e-08efb99e4415")
-		(property "Reference" "J2"
+		(property "Reference" "J6"
 			(at 61.595 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10817,86 +10376,7 @@
 		(instances
 			(project "feather-SAMD21&WD"
 				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint_Small")
-		(at 137.16 124.46 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3e321b6c-9a2c-4b8f-9023-cec5023a647b")
-		(property "Reference" "TP8"
-			(at 136.144 124.206 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint_Small"
-			(at 135.89 123.1901 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 132.08 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 132.08 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 137.16 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "63ccea22-1604-43c7-b7f1-56620ab02080")
-		)
-		(instances
-			(project "feather-SAMD21&WD"
-				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
-					(reference "TP8")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -10914,7 +10394,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "454a0151-893a-4f1d-9af4-6a6b7318e15c")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR012"
 			(at 41.91 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -10975,7 +10455,7 @@
 		(instances
 			(project "feather-SAMD21&WD"
 				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
-					(reference "#PWR021")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -10993,7 +10473,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47a26845-8873-4db5-a9ad-cecbdedbd8cd")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR016"
 			(at 69.85 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -11054,121 +10534,7 @@
 		(instances
 			(project "feather-SAMD21&WD"
 				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
-					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 137.16 128.27 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4845cbe0-6ece-45d7-a610-5310c51a2a6d")
-		(property "Reference" "C15"
-			(at 138.938 127.508 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10n"
-			(at 138.684 129.794 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 137.16 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 137.16 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 137.16 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Robu SKU" "595338"
-			(at 137.16 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 137.16 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 137.16 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e7e6fd65-a730-4bfe-9506-6dfde9a05bac")
-		)
-		(pin "2"
-			(uuid "e76ebe02-fdb2-4f94-ba5d-e7751fb67433")
-		)
-		(instances
-			(project "feather-SAMD21&WD"
-				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
-					(reference "C15")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -11185,7 +10551,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4e4cccc6-54fe-4ed7-975d-56577d124fc6")
-		(property "Reference" "C?"
+		(property "Reference" "C3"
 			(at 75.692 28.956 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11249,15 +10615,15 @@
 		(instances
 			(project "feather-SAMD21&WD"
 				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
-					(reference "C?")
+					(reference "C3")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 158.75 123.19 0)
+		(lib_id "Device:Crystal")
+		(at 195.58 58.42 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11265,11 +10631,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4fab1d21-247d-497e-b418-0cdae06a5186")
-		(property "Reference" "#PWR034"
-			(at 158.75 127 0)
-			(hide yes)
+		(uuid "4f3c6533-fd44-4989-9945-304f433cec50")
+		(property "Reference" "X1"
+			(at 195.326 62.484 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11278,8 +10642,8 @@
 				)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 158.75 118.11 0)
+		(property "Value" "32.768"
+			(at 195.58 53.594 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11288,8 +10652,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 158.75 123.19 0)
+		(property "Footprint" "Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm"
+			(at 195.58 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11300,7 +10664,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 123.19 0)
+			(at 195.58 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11310,8 +10674,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 158.75 123.19 0)
+		(property "Description" "Two pin crystal"
+			(at 195.58 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11322,12 +10686,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "2081aa62-3e2f-4cad-835f-e1d3b49dcc6a")
+			(uuid "33167560-05b0-4be8-92bc-3cb2ef5d2d38")
+		)
+		(pin "2"
+			(uuid "364d56f8-f016-413d-80ed-13c0dbcd1861")
 		)
 		(instances
 			(project "feather-SAMD21&WD"
 				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
-					(reference "#PWR034")
+					(reference "X1")
 					(unit 1)
 				)
 			)
@@ -11345,7 +10712,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "56aa7ee5-b881-4d25-a5dd-ed52b56166c7")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR010"
 			(at 35.56 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -11407,7 +10774,7 @@
 		(instances
 			(project "feather-SAMD21&WD"
 				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
-					(reference "#PWR026")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -11425,7 +10792,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "57c74010-b821-47fa-ab3b-9ec31a3ea1ec")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR02"
 			(at 25.4 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -11485,15 +10852,16 @@
 		(instances
 			(project "feather-SAMD21&WD"
 				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
-					(reference "#PWR07")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:VBUS")
-		(at 116.84 125.73 0)
+		(lib_id "power:GND")
+		(at 195.58 68.58 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11502,9 +10870,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "59627285-2aa2-4226-aab0-754980fa9c05")
-		(property "Reference" "#PWR016"
-			(at 116.84 129.54 0)
+		(uuid "5834339e-49e8-4772-bf4f-91f400d99263")
+		(property "Reference" "#PWR035"
+			(at 195.58 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11514,8 +10882,9 @@
 				)
 			)
 		)
-		(property "Value" "VBUS"
-			(at 116.84 120.65 0)
+		(property "Value" "GND"
+			(at 195.58 73.66 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11525,7 +10894,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 116.84 125.73 0)
+			(at 195.58 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11536,7 +10905,85 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 125.73 0)
+			(at 195.58 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 195.58 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6bf0f2b6-9ae3-47c9-8bf5-860d277f83f5")
+		)
+		(instances
+			(project "feather-SAMD21&WD"
+				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 110.49 125.73 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "59627285-2aa2-4226-aab0-754980fa9c05")
+		(property "Reference" "#PWR029"
+			(at 110.49 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 110.49 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11547,7 +10994,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 116.84 125.73 0)
+			(at 110.49 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11563,7 +11010,7 @@
 		(instances
 			(project "feather-SAMD21&WD"
 				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
-					(reference "#PWR016")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -11739,7 +11186,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5fd90e0d-b254-4ecc-9a95-c45e3f60cbed")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR021"
 			(at 72.39 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -11800,7 +11247,7 @@
 		(instances
 			(project "feather-SAMD21&WD"
 				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
-					(reference "#PWR036")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -11817,7 +11264,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "609c2e32-9286-482c-9f17-46fc67295c1b")
-		(property "Reference" "SW3"
+		(property "Reference" "SW1"
 			(at 32.004 39.37 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11879,7 +11326,7 @@
 		(instances
 			(project "feather-SAMD21&WD"
 				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
-					(reference "SW3")
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -11897,7 +11344,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6904a1ad-30ef-4728-8dbc-2552beb0e66c")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR015"
 			(at 69.85 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -11957,7 +11404,87 @@
 		(instances
 			(project "feather-SAMD21&WD"
 				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
-					(reference "#PWR010")
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 237.49 34.29 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c21374f-f761-44c5-92c6-bce5581c01b9")
+		(property "Reference" "#PWR037"
+			(at 237.49 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 237.49 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 237.49 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 237.49 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8ac7762a-c253-482b-be4e-4d78c2599315")
+		)
+		(instances
+			(project "feather-SAMD21&WD"
+				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -11975,7 +11502,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6fc8bf14-fd1d-4ebe-b0c0-61c743b7fc49")
-		(property "Reference" "R13"
+		(property "Reference" "R6"
 			(at 132.08 65.786 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12081,7 +11608,7 @@
 		(instances
 			(project "feather-SAMD21&WD"
 				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
-					(reference "R13")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -12098,7 +11625,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "78704ef9-b3b5-47cb-b782-5444cc423d66")
-		(property "Reference" "J8"
+		(property "Reference" "J2"
 			(at 36.576 146.812 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12162,86 +11689,7 @@
 		(instances
 			(project "feather-SAMD21&WD"
 				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
-					(reference "J8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 124.46 185.42 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7b8c7ef4-055a-4205-9474-328eac7cee34")
-		(property "Reference" "H4"
-			(at 127 182.8799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 127 185.4199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
-			(at 124.46 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 124.46 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6c049208-0beb-4d16-9351-bc99a564bb2e")
-		)
-		(instances
-			(project "feather-SAMD21&WD"
-				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
-					(reference "H4")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -12259,7 +11707,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7dda8362-8a4a-41e8-9106-1841d278bf54")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR025"
 			(at 102.87 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -12319,7 +11767,7 @@
 		(instances
 			(project "feather-SAMD21&WD"
 				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
-					(reference "#PWR04")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -12336,7 +11784,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7ec2eee5-d183-4a01-abcb-cc222a6daffc")
-		(property "Reference" "TP10"
+		(property "Reference" "TP2"
 			(at 132.842 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12398,7 +11846,7 @@
 		(instances
 			(project "feather-SAMD21&WD"
 				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
-					(reference "TP10")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -12495,7 +11943,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8476ea14-d78e-4207-856c-f92cac4d4a83")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR013"
 			(at 59.69 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -12555,7 +12003,7 @@
 		(instances
 			(project "feather-SAMD21&WD"
 				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
-					(reference "#PWR031")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -12573,7 +12021,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "858b1956-a5a7-4773-b3f1-1d78022adca8")
-		(property "Reference" "R4"
+		(property "Reference" "R1"
 			(at 38.1 134.6199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12638,7 +12086,7 @@
 		(instances
 			(project "feather-SAMD21&WD"
 				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
-					(reference "R4")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -12656,7 +12104,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "85b205a7-5c93-4b09-b061-75f3a41c11dd")
-		(property "Reference" "#FLG04"
+		(property "Reference" "#FLG03"
 			(at 102.87 127.635 0)
 			(hide yes)
 			(show_name no)
@@ -12717,7 +12165,7 @@
 		(instances
 			(project "feather-SAMD21&WD"
 				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
-					(reference "#FLG04")
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -12735,7 +12183,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "872a5acc-deb1-40fa-ae19-4708ed54f820")
-		(property "Reference" "R8"
+		(property "Reference" "R5"
 			(at 101.6 162.5599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12800,7 +12248,7 @@
 		(instances
 			(project "feather-SAMD21&WD"
 				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
-					(reference "R8")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -12817,7 +12265,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "89f983df-8ade-4241-afb7-90b3cc2eecf9")
-		(property "Reference" "C?"
+		(property "Reference" "C6"
 			(at 90.932 29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12881,7 +12329,7 @@
 		(instances
 			(project "feather-SAMD21&WD"
 				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
-					(reference "C?")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -12899,7 +12347,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8f702a25-ef9f-4abc-982b-75d2dabfed3d")
-		(property "Reference" "R5"
+		(property "Reference" "R2"
 			(at 38.1 158.7499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12964,198 +12412,7 @@
 		(instances
 			(project "feather-SAMD21&WD"
 				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 124.46 187.96 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "90eaa111-5740-4f4d-88ea-e1a30fd07f5f")
-		(property "Reference" "#PWR053"
-			(at 124.46 194.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 124.46 193.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 124.46 187.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 187.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 124.46 187.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "30a9f98f-a715-4bfb-b300-56b2a8b644b5")
-		)
-		(instances
-			(project "feather-SAMD21&WD"
-				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
-					(reference "#PWR053")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:FerriteBead")
-		(at 152.4 124.46 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "91d74c70-b868-4159-98a2-23ed99c03566")
-		(property "Reference" "FB1"
-			(at 149.352 118.364 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "FerriteBead"
-			(at 147.574 120.65 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder"
-			(at 152.4 126.238 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 152.4 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Ferrite bead"
-			(at 152.4 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Robu SKU" "R112445"
-			(at 152.4 124.46 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 152.4 124.46 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 152.4 124.46 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "00efeea6-4cdf-4943-a40e-3f2219a60153")
-		)
-		(pin "1"
-			(uuid "3f70b1f2-75da-4628-aec0-4876d6937f01")
-		)
-		(instances
-			(project "feather-SAMD21&WD"
-				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
-					(reference "FB1")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -13172,7 +12429,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "953b57f2-8cc2-441d-9db6-8e345769c42c")
-		(property "Reference" "U5"
+		(property "Reference" "U2"
 			(at 107.188 73.152 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13273,7 +12530,7 @@
 		(instances
 			(project "feather-SAMD21&WD"
 				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
-					(reference "U5")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -13281,7 +12538,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 116.84 125.73 180)
+		(at 110.49 125.73 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13291,8 +12548,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "988380e5-6c88-4c46-9727-713f0915777c")
-		(property "Reference" "#FLG06"
-			(at 116.84 127.635 0)
+		(property "Reference" "#FLG05"
+			(at 110.49 127.635 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13303,7 +12560,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 116.84 130.81 0)
+			(at 110.49 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13314,7 +12571,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 116.84 125.73 0)
+			(at 110.49 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13325,7 +12582,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 125.73 0)
+			(at 110.49 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13336,7 +12593,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 116.84 125.73 0)
+			(at 110.49 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13352,7 +12609,7 @@
 		(instances
 			(project "feather-SAMD21&WD"
 				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
-					(reference "#FLG06")
+					(reference "#FLG05")
 					(unit 1)
 				)
 			)
@@ -13370,7 +12627,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9d0e45df-7b08-4eb4-ad28-484026d55d61")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR026"
 			(at 105.41 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -13430,15 +12687,15 @@
 		(instances
 			(project "feather-SAMD21&WD"
 				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
-					(reference "#PWR030")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 146.05 134.62 0)
+		(lib_id "power:+3.3V")
+		(at 250.19 38.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13446,9 +12703,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "a190c49b-800a-4c95-b936-16eb815e772d")
-		(property "Reference" "#PWR038"
-			(at 146.05 140.97 0)
+		(uuid "a14883a1-ce67-40f0-af6e-a08fa9a8936a")
+		(property "Reference" "#PWR042"
+			(at 250.19 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13458,19 +12715,19 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 146.05 138.43 0)
-			(hide yes)
+		(property "Value" "+3.3V"
+			(at 250.19 34.798 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 146.05 134.62 0)
+			(at 250.19 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13481,7 +12738,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 134.62 0)
+			(at 250.19 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13491,8 +12748,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 146.05 134.62 0)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 250.19 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13503,12 +12760,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "0da59a73-a64f-4bc7-8db7-df8655a928d0")
+			(uuid "505ebcf1-5748-476a-96d8-5f893eac423b")
 		)
 		(instances
 			(project "feather-SAMD21&WD"
 				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
-					(reference "#PWR038")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -13526,7 +12783,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a75bda69-2832-46d6-b633-780f6408f235")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR08"
 			(at 35.56 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -13588,88 +12845,7 @@
 		(instances
 			(project "feather-SAMD21&WD"
 				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
-					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Adafruit Feather M0 Express-eagle-import:RESISTOR_0603_NOOUT")
-		(at 160.02 171.45 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a8f43344-0cb3-4d7d-a1d1-cf5a889533af")
-		(property "Reference" "R9"
-			(at 162.56 171.45 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2.2K"
-			(at 160.02 171.45 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-					(thickness 0.2032)
-					(bold yes)
-				)
-			)
-		)
-		(property "Footprint" "Adafruit Feather M0 Express:0603-NO"
-			(at 160.02 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 160.02 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 160.02 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fb5daf80-3b10-4df3-bb8d-b1ddba790e86")
-		)
-		(pin "2"
-			(uuid "d6f4a4e1-cd8a-4f22-b0ba-16b00edebc11")
-		)
-		(instances
-			(project "feather-SAMD21&WD"
-				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
-					(reference "R9")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -13688,7 +12864,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa1c2261-3b14-49f4-98f0-a222298c8444")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR027"
 			(at 105.41 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -13748,7 +12924,7 @@
 		(instances
 			(project "feather-SAMD21&WD"
 				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
-					(reference "#PWR035")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -13766,7 +12942,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa448af6-ed0f-4674-b9cd-62f8e810e198")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR031"
 			(at 124.46 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -13827,7 +13003,7 @@
 		(instances
 			(project "feather-SAMD21&WD"
 				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
-					(reference "#PWR051")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -13845,7 +13021,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ae0825e7-6c18-48fa-8cf8-bf905412b3a0")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR04"
 			(at 30.48 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -13906,7 +13082,131 @@
 		(instances
 			(project "feather-SAMD21&WD"
 				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
-					(reference "#PWR044")
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 160.02 170.18 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "aec64541-f02f-4c40-99fe-a1662dd34f8f")
+		(property "Reference" "R8"
+			(at 161.798 170.18 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "2k2"
+			(at 163.322 170.18 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 160.02 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 160.02 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Robu SKU" "R218648"
+			(at 160.02 170.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 160.02 170.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 160.02 170.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 160.02 170.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "58e63f26-5d12-4c42-9ac2-720e8952b2bb")
+		)
+		(pin "1"
+			(uuid "41f087a7-fb1c-43b6-b9ea-182eb8193036")
+		)
+		(instances
+			(project "feather-SAMD21&WD"
+				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -13924,7 +13224,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0ca15f4-a0c3-4b0a-b2c4-83e10ce585d8")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR03"
 			(at 25.4 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -13985,7 +13285,7 @@
 		(instances
 			(project "feather-SAMD21&WD"
 				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
-					(reference "#PWR042")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -14003,7 +13303,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b16837f8-c7fb-4dcf-83c6-81ea7ccc68b9")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR019"
 			(at 72.39 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -14063,200 +13363,7 @@
 		(instances
 			(project "feather-SAMD21&WD"
 				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
-					(reference "#PWR040")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3VA")
-		(at 137.16 123.19 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b3c0edf5-a74d-421a-8278-2c25772c2e52")
-		(property "Reference" "#PWR033"
-			(at 137.16 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3VA"
-			(at 137.16 118.11 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 137.16 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 137.16 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
-			(at 137.16 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e6427ec1-ccf0-4cf7-ae01-21f343e99fb5")
-		)
-		(instances
-			(project "feather-SAMD21&WD"
-				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
-					(reference "#PWR033")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 158.75 128.27 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b524eeb8-b759-4e97-ac3c-159d98c15244")
-		(property "Reference" "C17"
-			(at 161.29 127.0062 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1u"
-			(at 161.29 129.5462 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 158.75 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 158.75 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 158.75 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Robu SKU" "1089873"
-			(at 158.75 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 158.75 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 158.75 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e203eafd-ab11-42dc-b0cb-fe570679ab78")
-		)
-		(pin "2"
-			(uuid "5a569ac5-cc98-4842-a680-ef934b0ad26f")
-		)
-		(instances
-			(project "feather-SAMD21&WD"
-				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
-					(reference "C17")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -14274,7 +13381,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b866a593-5090-4e20-b948-51302987a84b")
-		(property "Reference" "J5"
+		(property "Reference" "J8"
 			(at 162.56 58.166 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14425,85 +13532,7 @@
 		(instances
 			(project "feather-SAMD21&WD"
 				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
-					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3VA")
-		(at 260.35 36.83 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b9a5509c-9e58-411c-bdb7-70096d520a7d")
-		(property "Reference" "#PWR046"
-			(at 260.35 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3VA"
-			(at 260.35 31.75 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 260.35 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 260.35 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
-			(at 260.35 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3545122a-b12a-4ff2-9cf4-77724b2cbc22")
-		)
-		(instances
-			(project "feather-SAMD21&WD"
-				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
-					(reference "#PWR046")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -14521,7 +13550,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bdbf8d9e-29ce-4203-8bd9-5311b0759eca")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR030"
 			(at 124.46 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -14582,85 +13611,7 @@
 		(instances
 			(project "feather-SAMD21&WD"
 				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
-					(reference "#PWR047")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 245.11 38.1 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "be2dd0b4-c183-4346-ba2d-2de3911d5afb")
-		(property "Reference" "#PWR022"
-			(at 245.11 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 245.11 34.798 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 245.11 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 245.11 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 245.11 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4e6c837b-718b-4dc6-a043-24766f8dda9d")
-		)
-		(instances
-			(project "feather-SAMD21&WD"
-				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
-					(reference "#PWR022")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -14678,7 +13629,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bee4e81c-88ff-4952-918c-bf973d4620a8")
-		(property "Reference" "U1"
+		(property "Reference" "U3"
 			(at 257.4133 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14883,7 +13834,7 @@
 		(instances
 			(project "feather-SAMD21&WD"
 				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
-					(reference "U1")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -14980,7 +13931,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c7db26aa-65a4-439a-ba37-dbc6acb4afec")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR014"
 			(at 67.31 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -15040,7 +13991,7 @@
 		(instances
 			(project "feather-SAMD21&WD"
 				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
-					(reference "#PWR06")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -15057,7 +14008,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ca0e5abb-72d0-4200-b445-21b4742014ae")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR020"
 			(at 72.39 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -15117,7 +14068,7 @@
 		(instances
 			(project "feather-SAMD21&WD"
 				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
-					(reference "#PWR032")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -15134,7 +14085,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cd90d26e-094f-4c1c-929a-4a79bd971f7f")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR024"
 			(at 99.06 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -15194,7 +14145,7 @@
 		(instances
 			(project "feather-SAMD21&WD"
 				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
-					(reference "#PWR037")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -15213,7 +14164,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cf92a98e-2d44-48d2-b49b-f9ae11bf5273")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR038"
 			(at 153.67 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -15274,7 +14225,7 @@
 		(instances
 			(project "feather-SAMD21&WD"
 				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
-					(reference "#PWR041")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -15292,7 +14243,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d0fad6f2-521f-424f-aecb-f86a18f86960")
-		(property "Reference" "R7"
+		(property "Reference" "R3"
 			(at 38.1 182.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15357,7 +14308,100 @@
 		(instances
 			(project "feather-SAMD21&WD"
 				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
-					(reference "R7")
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 160.02 180.34 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d1796a11-f1a4-4092-8682-985f94ef765c")
+		(property "Reference" "D1"
+			(at 163.83 180.6574 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 163.83 183.1974 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 160.02 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 160.02 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 160.02 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "aa24fc04-c0ae-41f9-93e0-c3a920f9d786")
+		)
+		(pin "2"
+			(uuid "3317ff69-6031-4ba4-83d3-9f792ecb5a82")
+		)
+		(instances
+			(project "feather-SAMD21&WD"
+				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -15375,7 +14419,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d3f2820f-8c99-4e98-999c-e44000464257")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR022"
 			(at 90.17 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -15436,7 +14480,7 @@
 		(instances
 			(project "feather-SAMD21&WD"
 				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
-					(reference "#PWR011")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -15454,7 +14498,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d61de23c-5637-4da3-afa8-6c06b44bdba2")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR06"
 			(at 35.56 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -15516,7 +14560,7 @@
 		(instances
 			(project "feather-SAMD21&WD"
 				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
-					(reference "#PWR018")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -15534,7 +14578,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db46f8d6-fd8d-4fec-80f1-91a693f361c6")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR023"
 			(at 96.52 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -15594,7 +14638,7 @@
 		(instances
 			(project "feather-SAMD21&WD"
 				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
-					(reference "#PWR02")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -15612,7 +14656,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dd8ecd9b-971d-421f-bdbf-74840683a990")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR043"
 			(at 252.73 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -15673,7 +14717,7 @@
 		(instances
 			(project "feather-SAMD21&WD"
 				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
-					(reference "#PWR027")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -15690,7 +14734,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e09d751f-e73d-483c-b523-606e8e102ba9")
-		(property "Reference" "C?"
+		(property "Reference" "C5"
 			(at 86.106 28.956 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15754,7 +14798,7 @@
 		(instances
 			(project "feather-SAMD21&WD"
 				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
-					(reference "C?")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -15771,7 +14815,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e214424f-d504-4929-bdff-e94c05d4c5d8")
-		(property "Reference" "R6"
+		(property "Reference" "R4"
 			(at 39.878 30.226 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15833,7 +14877,7 @@
 		(instances
 			(project "feather-SAMD21&WD"
 				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
-					(reference "R6")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -15850,7 +14894,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e27c15ba-6e11-4d85-a47e-7f1100537935")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR07"
 			(at 35.56 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -15910,7 +14954,7 @@
 		(instances
 			(project "feather-SAMD21&WD"
 				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
-					(reference "#PWR023")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -15927,7 +14971,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e9ca203e-6371-4475-95dd-b02f04a6074d")
-		(property "Reference" "U3"
+		(property "Reference" "U1"
 			(at 79.502 162.306 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16007,7 +15051,7 @@
 		(instances
 			(project "feather-SAMD21&WD"
 				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
-					(reference "U3")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -16025,7 +15069,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea4403eb-2afe-47a1-a6d6-cbd4ae16092f")
-		(property "Reference" "C4"
+		(property "Reference" "C1"
 			(at 44.45 35.5662 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16089,7 +15133,89 @@
 		(instances
 			(project "feather-SAMD21&WD"
 				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
-					(reference "C4")
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 189.23 66.04 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ebcebe61-4b95-4887-a917-d76c458df55a")
+		(property "Reference" "C7"
+			(at 186.69 67.3038 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22pf"
+			(at 186.69 64.7638 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 189.23 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 189.23 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4e61e034-c35a-4d38-9c1a-8628799578c3")
+		)
+		(pin "2"
+			(uuid "deb8986e-ece8-4ead-84df-dc682514f63b")
+		)
+		(instances
+			(project "feather-SAMD21&WD"
+				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -16106,8 +15232,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "edbbbd59-f7d5-4199-bd5e-5839e5002f2d")
-		(property "Reference" "J1"
-			(at 33.02 106.426 0)
+		(property "Reference" "J4"
+			(at 27.686 58.674 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16210,7 +15336,7 @@
 		(instances
 			(project "feather-SAMD21&WD"
 				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
-					(reference "J1")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -16228,7 +15354,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ee4b394a-1b2a-4b4d-893d-abfa9b17d596")
-		(property "Reference" "R14"
+		(property "Reference" "R7"
 			(at 132.08 71.628 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16334,121 +15460,7 @@
 		(instances
 			(project "feather-SAMD21&WD"
 				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
-					(reference "R14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 146.05 128.27 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ee8502f9-293f-4cfe-a45e-c4a47a4bb9d3")
-		(property "Reference" "C16"
-			(at 148.082 128.016 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1u"
-			(at 147.828 130.302 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 146.05 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 146.05 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 146.05 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Robu SKU" "1089873"
-			(at 146.05 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 146.05 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 146.05 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "afcaf9a0-12e9-4268-854c-39fdcd72e062")
-		)
-		(pin "2"
-			(uuid "13b047c2-fbbf-4d6d-9a10-72f4bf6772d8")
-		)
-		(instances
-			(project "feather-SAMD21&WD"
-				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
-					(reference "C16")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -16465,7 +15477,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f06790e3-60bd-4130-ba26-b2d4c9f0e74e")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR05"
 			(at 35.56 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -16525,7 +15537,7 @@
 		(instances
 			(project "feather-SAMD21&WD"
 				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
-					(reference "#PWR017")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -16542,7 +15554,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f1b3e35d-6327-4c47-ad2a-4c564eb4d426")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR09"
 			(at 35.56 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -16602,7 +15614,7 @@
 		(instances
 			(project "feather-SAMD21&WD"
 				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
-					(reference "#PWR025")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -16619,7 +15631,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f22a14c2-8143-44c0-8b05-daa7a4e67ee4")
-		(property "Reference" "J6"
+		(property "Reference" "J1"
 			(at 36.576 122.682 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16683,86 +15695,7 @@
 		(instances
 			(project "feather-SAMD21&WD"
 				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
-					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 124.46 175.26 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f79915eb-70ea-4729-baf9-dcfb59566140")
-		(property "Reference" "H3"
-			(at 127 172.7199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 127 175.2599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
-			(at 124.46 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 124.46 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bf8a7a7e-f631-461e-8c84-2c911350ae42")
-		)
-		(instances
-			(project "feather-SAMD21&WD"
-				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
-					(reference "H3")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -16780,7 +15713,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f90383bf-5230-450f-bbe8-afe5c7011a67")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR017"
 			(at 72.39 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -16840,7 +15773,7 @@
 		(instances
 			(project "feather-SAMD21&WD"
 				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
-					(reference "#PWR043")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -16857,7 +15790,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fd05dcc5-d70e-4b63-8001-78199ae5deee")
-		(property "Reference" "C5"
+		(property "Reference" "C2"
 			(at 66.294 159.004 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16920,7 +15853,7 @@
 		(instances
 			(project "feather-SAMD21&WD"
 				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
-					(reference "C5")
+					(reference "C2")
 					(unit 1)
 				)
 			)
