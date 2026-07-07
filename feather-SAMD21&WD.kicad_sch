@@ -8322,30 +8322,6 @@
 			)
 		)
 	)
-	(global_label "A0"
-		(shape bidirectional)
-		(at 62.23 170.18 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify right)
-		)
-		(uuid "87aee437-8c1e-4b65-bbf7-c445af60e3f5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 55.9637 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "MISO"
 		(shape bidirectional)
 		(at 234.95 81.28 180)
@@ -8767,6 +8743,30 @@
 		(uuid "b8829f4f-a664-4a97-a715-ccbddd7f6e1f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 54.7092 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "D1"
+		(shape bidirectional)
+		(at 62.23 170.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify right)
+		)
+		(uuid "b9effb37-6cfa-4a50-89b5-974b357dd739")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 55.7859 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
