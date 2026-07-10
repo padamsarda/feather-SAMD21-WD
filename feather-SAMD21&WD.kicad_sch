@@ -7496,6 +7496,12 @@
 		(uuid "5faef855-b784-4c90-beb9-d137c9ac3569")
 	)
 	(junction
+		(at 135.89 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6a24fcbf-c0a6-4403-9bb5-347efad33c95")
+	)
+	(junction
 		(at 229.87 184.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7506,12 +7512,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "81b9188d-a9c7-4a41-bb58-10acdc6e53a8")
-	)
-	(junction
-		(at 135.8121 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8220f9ec-f2a7-4359-bcb5-8ed4113e9078")
 	)
 	(junction
 		(at 363.22 121.92)
@@ -7666,24 +7666,12 @@
 		(uuid "1a6eefa0-4675-441e-957d-3dde592ea639")
 	)
 	(no_connect
-		(at 142.24 267.97)
-		(uuid "6cdbd5d2-5c5a-497f-aadc-60ac47d0a77e")
-	)
-	(no_connect
 		(at 69.85 60.96)
 		(uuid "7a604670-025c-4684-b750-4f54239dced9")
 	)
 	(no_connect
-		(at 118.11 267.97)
-		(uuid "8a790cbf-b579-48c0-936e-f62dbb23e037")
-	)
-	(no_connect
 		(at 336.55 80.01)
 		(uuid "c31ff17e-00d3-44cd-8ed1-1a7cb7065138")
-	)
-	(no_connect
-		(at 127 267.97)
-		(uuid "de1817b6-7ec7-4127-87db-409f376174cd")
 	)
 	(wire
 		(pts
@@ -7694,6 +7682,16 @@
 			(type default)
 		)
 		(uuid "00c13e35-c476-4a5b-87a2-128e0b21ebbc")
+	)
+	(wire
+		(pts
+			(xy 134.62 45.72) (xy 135.89 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "011086f5-df81-4877-b0b5-3293bbbe492b")
 	)
 	(wire
 		(pts
@@ -7995,16 +7993,6 @@
 		)
 		(uuid "24a97622-6ab0-42f7-82d5-64809c375164")
 	)
-	(wire
-		(pts
-			(xy 137.16 45.72) (xy 135.8121 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2553c09e-20f5-463e-8839-20b162ef6037")
-	)
 	(polyline
 		(pts
 			(xy 232.41 147.32) (xy 266.7 97.79)
@@ -8124,6 +8112,16 @@
 			(type default)
 		)
 		(uuid "3084dd1d-106e-4ac3-aced-6bf9874c8d13")
+	)
+	(wire
+		(pts
+			(xy 135.89 45.72) (xy 137.16 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "318becb7-0003-4f59-90e6-adbe461a2fd0")
 	)
 	(wire
 		(pts
@@ -8614,16 +8612,6 @@
 			(type default)
 		)
 		(uuid "7c48bee0-5b94-48a6-ae06-02656bdb2cb1")
-	)
-	(wire
-		(pts
-			(xy 135.8121 45.72) (xy 134.62 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e7608e7-8145-48f3-bfae-edfb43084f5f")
 	)
 	(wire
 		(pts
@@ -18592,84 +18580,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+BATT")
-		(at 127 267.97 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7dda8362-8a4a-41e8-9106-1841d278bf54")
-		(property "Reference" "#PWR025"
-			(at 127 271.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+BATT"
-			(at 127 262.89 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 127 267.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 127 267.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 127 267.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "de989c32-941a-440e-9672-1c2b47cb144c")
-		)
-		(instances
-			(project "feather-SAMD21&WD"
-				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
-					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 294.64 167.64 0)
 		(unit 1)
@@ -19777,6 +19687,85 @@
 			(project "feather-SAMD21&WD"
 				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
 					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 135.89 45.72 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "914ddf2c-7b9e-47a1-86a0-54f307453268")
+		(property "Reference" "TP12"
+			(at 135.89 47.244 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 134.6201 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 135.89 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 135.89 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d5ea1ce5-8843-4444-a5e8-72a8f1041c6c")
+		)
+		(instances
+			(project "feather-SAMD21&WD"
+				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
+					(reference "TP12")
 					(unit 1)
 				)
 			)
@@ -22402,85 +22391,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint_Small")
-		(at 135.8121 45.72 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c6307a91-411e-4a47-b5e7-895c4cc2d985")
-		(property "Reference" "TP12"
-			(at 135.8121 47.244 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint_Small"
-			(at 134.5422 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 135.8121 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 135.8121 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 135.8121 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "eab718e0-e89e-4a88-9085-0971ae6867a7")
-		)
-		(instances
-			(project "feather-SAMD21&WD"
-				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
-					(reference "TP12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+BATT")
 		(at 99.06 190.5 0)
 		(unit 1)
@@ -22790,84 +22700,6 @@
 			(project "feather-SAMD21&WD"
 				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
 					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3VP")
-		(at 142.24 267.97 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ccf4f503-2029-48f6-adb0-6d3f95e3321c")
-		(property "Reference" "#PWR055"
-			(at 138.43 269.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3Vsys"
-			(at 142.24 262.89 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 142.24 267.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 142.24 267.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3VP\""
-			(at 142.24 267.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ca46a637-0ed8-43b4-9176-cc3781b2015c")
-		)
-		(instances
-			(project "feather-SAMD21&WD"
-				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
-					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -23518,84 +23350,6 @@
 			(project "feather-SAMD21&WD"
 				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
 					(reference "#PWR062")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 118.11 267.97 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "db46f8d6-fd8d-4fec-80f1-91a693f361c6")
-		(property "Reference" "#PWR023"
-			(at 118.11 271.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3Vmcu"
-			(at 118.11 262.89 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 118.11 267.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 118.11 267.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 118.11 267.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1766b217-e018-4cb8-91b9-88ae2d364559")
-		)
-		(instances
-			(project "feather-SAMD21&WD"
-				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
-					(reference "#PWR023")
 					(unit 1)
 				)
 			)
