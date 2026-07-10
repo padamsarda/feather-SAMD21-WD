@@ -20,6 +20,7 @@ The board retains the original Feather footprint, dimensions and pinout while in
 - USB ESD protection
 - USB Type-C interface
 - 32.786Mhz External crystal oscillator
+- multiple jumpers to bypass/cutoff certain circuits
 - Reset button
 
 ## Applications
