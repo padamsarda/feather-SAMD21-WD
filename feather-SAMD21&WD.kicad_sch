@@ -5220,7 +5220,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Power_Supervisor:MAX6369"
+		(symbol "Power_Supervisor:MAX6373"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -5236,7 +5236,7 @@
 					)
 				)
 			)
-			(property "Value" "MAX6369"
+			(property "Value" "MAX6373"
 				(at -6.604 11.43 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5301,7 +5301,7 @@
 					)
 				)
 			)
-			(symbol "MAX6369_0_1"
+			(symbol "MAX6373_0_1"
 				(rectangle
 					(start -7.62 10.16)
 					(end 7.62 -10.16)
@@ -5314,7 +5314,7 @@
 					)
 				)
 			)
-			(symbol "MAX6369_1_1"
+			(symbol "MAX6373_1_1"
 				(pin input line
 					(at -10.16 5.08 0)
 					(length 2.54)
@@ -7364,12 +7364,6 @@
 		(uuid "fdb732c7-b722-433b-8314-d2a346db5950")
 	)
 	(junction
-		(at 124.46 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "06ccb528-e202-431d-a424-3be19284d0a9")
-	)
-	(junction
 		(at 165.1 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7388,24 +7382,6 @@
 		(uuid "1df643e8-bdc2-4501-8399-e69be51150bb")
 	)
 	(junction
-		(at 30.48 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1fd355a6-8dd3-4851-9acc-ed0b1127e722")
-	)
-	(junction
-		(at 106.68 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "21b6854c-0263-4863-9095-51e154797f35")
-	)
-	(junction
-		(at 139.7 144.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "220aa5d9-aa4b-4a55-adb8-7c8d2d3beb88")
-	)
-	(junction
 		(at 165.1 226.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7418,12 +7394,6 @@
 		(uuid "28e6e1d3-d8a2-446e-aa15-9161d5925a08")
 	)
 	(junction
-		(at 165.1 231.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2a156898-1f32-4828-bc21-e2f6ce9445f2")
-	)
-	(junction
 		(at 391.16 175.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7434,12 +7404,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "348a4ae8-e432-4084-975b-3faffac261b5")
-	)
-	(junction
-		(at 30.48 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "359bf00e-28f9-478c-89f9-ea8edd10c42f")
 	)
 	(junction
 		(at 30.48 262.89)
@@ -7496,12 +7460,6 @@
 		(uuid "5faef855-b784-4c90-beb9-d137c9ac3569")
 	)
 	(junction
-		(at 135.89 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6a24fcbf-c0a6-4403-9bb5-347efad33c95")
-	)
-	(junction
 		(at 229.87 184.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7536,12 +7494,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8616e466-1626-498c-a511-f166864a2148")
-	)
-	(junction
-		(at 363.22 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8adafb35-4d2a-4a9c-985e-33cf6f8e977c")
 	)
 	(junction
 		(at 275.59 74.93)
@@ -7610,12 +7562,6 @@
 		(uuid "be47d039-4224-4c74-8a75-e06a5ec15b9c")
 	)
 	(junction
-		(at 351.79 175.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bed6d927-4399-45ca-8b28-0599b982d4e4")
-	)
-	(junction
 		(at 59.69 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7675,7 +7621,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 48.26) (xy 30.48 48.26)
+			(xy 27.94 48.26) (xy 31.75 48.26)
 		)
 		(stroke
 			(width 0)
@@ -7685,7 +7631,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 45.72) (xy 135.89 45.72)
+			(xy 134.62 45.72) (xy 137.16 45.72)
 		)
 		(stroke
 			(width 0)
@@ -7825,16 +7771,6 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 48.26) (xy 31.75 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12b1aa0d-e83b-4c11-97f8-f2f05b2262c4")
-	)
-	(wire
-		(pts
 			(xy 162.56 226.06) (xy 165.1 226.06)
 		)
 		(stroke
@@ -7855,7 +7791,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 33.02) (xy 124.46 34.29)
+			(xy 124.46 33.02) (xy 124.46 35.56)
 		)
 		(stroke
 			(width 0)
@@ -8115,16 +8051,6 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 45.72) (xy 137.16 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "318becb7-0003-4f59-90e6-adbe461a2fd0")
-	)
-	(wire
-		(pts
 			(xy 69.85 26.67) (xy 69.85 30.48)
 		)
 		(stroke
@@ -8265,7 +8191,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 99.06) (xy 106.68 100.33)
+			(xy 106.68 99.06) (xy 106.68 101.6)
 		)
 		(stroke
 			(width 0)
@@ -8395,7 +8321,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 144.78) (xy 139.7 144.78)
+			(xy 138.43 144.78) (xy 147.32 144.78)
 		)
 		(stroke
 			(width 0)
@@ -8452,16 +8378,6 @@
 			(type default)
 		)
 		(uuid "62b5c82e-0bb8-4cab-8a92-8b10da22c5c2")
-	)
-	(wire
-		(pts
-			(xy 106.68 100.33) (xy 106.68 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65fdaa34-77c0-4673-a66c-d2f9f88ae6bc")
 	)
 	(wire
 		(pts
@@ -8642,16 +8558,6 @@
 			(type default)
 		)
 		(uuid "80059759-465e-4642-80cb-faa81233e10e")
-	)
-	(wire
-		(pts
-			(xy 139.7 144.78) (xy 147.32 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87a0d95c-f1d4-4e3e-8699-7de6ba41c174")
 	)
 	(wire
 		(pts
@@ -8865,7 +8771,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 231.14) (xy 165.1 226.06)
+			(xy 165.1 226.06) (xy 165.1 232.41)
 		)
 		(stroke
 			(width 0)
@@ -9015,16 +8921,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 232.41) (xy 165.1 231.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be3ff347-4177-46e1-ba3e-e9ecddfb1141")
-	)
-	(wire
-		(pts
 			(xy 162.56 129.54) (xy 165.1 129.54)
 		)
 		(stroke
@@ -9145,7 +9041,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 45.72) (xy 30.48 45.72)
+			(xy 27.94 45.72) (xy 31.75 45.72)
 		)
 		(stroke
 			(width 0)
@@ -9232,16 +9128,6 @@
 			(type default)
 		)
 		(uuid "d1bb3316-d8c0-4de8-9758-7fb2e5458f8e")
-	)
-	(wire
-		(pts
-			(xy 124.46 34.29) (xy 124.46 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d353134f-68d3-4812-9dc8-c175b6079b07")
 	)
 	(wire
 		(pts
@@ -9592,16 +9478,6 @@
 			(type default)
 		)
 		(uuid "fbe29e48-778c-4669-b1d3-bbe4b7e12eda")
-	)
-	(wire
-		(pts
-			(xy 30.48 45.72) (xy 31.75 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc4f7670-77b7-4892-b87f-99c8b12ce7c8")
 	)
 	(wire
 		(pts
@@ -14940,85 +14816,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint_Small")
-		(at 30.48 48.26 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2e17787c-2e99-4a10-b1da-e1f58ec90d1e")
-		(property "Reference" "TP16"
-			(at 30.48 52.07 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint_Small"
-			(at 31.7499 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 30.48 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 30.48 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 30.48 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7d56def8-46a2-4ff9-86b3-8f3831d0dad4")
-		)
-		(instances
-			(project "feather-SAMD21&WD"
-				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
-					(reference "TP16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
 		(at 381 170.18 270)
 		(unit 1)
@@ -15280,7 +15077,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "22pf"
+		(property "Value" "12.5pf"
 			(at 121.158 150.876 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16143,7 +15940,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4ed1ec05-b490-457e-a92f-7b3cdb467ed7")
-		(property "Reference" "TP10"
+		(property "Reference" "TP7"
 			(at 279.146 195.58 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16205,7 +16002,7 @@
 		(instances
 			(project "feather-SAMD21&WD"
 				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
-					(reference "TP10")
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -17093,85 +16890,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint_Small")
-		(at 165.1 231.14 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5dbc8973-7dc7-4b29-a95b-08062b3d7018")
-		(property "Reference" "TP9"
-			(at 168.91 231.14 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint_Small"
-			(at 163.83 229.8701 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 160.02 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 160.02 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 165.1 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "951234b6-1862-4c77-80a3-78674724e8a8")
-		)
-		(instances
-			(project "feather-SAMD21&WD"
-				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
-					(reference "TP9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 146.05 34.29 0)
 		(unit 1)
@@ -17405,85 +17123,6 @@
 			(project "feather-SAMD21&WD"
 				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
 					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint_Small")
-		(at 30.48 45.72 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "614fc5d2-493c-4331-85ea-f67fddb823ac")
-		(property "Reference" "TP15"
-			(at 30.48 41.91 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint_Small"
-			(at 29.2101 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 30.48 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 30.48 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 30.48 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "14e7b48c-978d-47b5-8964-d9eef6efbcc3")
-		)
-		(instances
-			(project "feather-SAMD21&WD"
-				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
-					(reference "TP15")
 					(unit 1)
 				)
 			)
@@ -17818,6 +17457,104 @@
 			(project "feather-SAMD21&WD"
 				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power_Supervisor:MAX6373")
+		(at 361.95 180.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "69e50803-ad5b-4044-9dae-d78eb05a4f5d")
+		(property "Reference" "U8"
+			(at 375.92 168.8398 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MAX6373"
+			(at 375.92 171.3798 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-8"
+			(at 378.46 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://datasheets.maximintegrated.com/en/ds/MAX6369-MAX6374.pdf"
+			(at 365.76 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Precision Pin-Selectable Watchdog Timer, 200us to 60s, SOT-23-8"
+			(at 361.95 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "a34b0605-4c04-4910-9584-c4c94b8025e7")
+		)
+		(pin "6"
+			(uuid "deaf1b27-8e98-4b38-9052-ac793658460c")
+		)
+		(pin "7"
+			(uuid "31d48130-1106-4e23-994c-7d55c41004bb")
+		)
+		(pin "4"
+			(uuid "f9e64432-342c-4d2f-b7f3-443210cf4b04")
+		)
+		(pin "8"
+			(uuid "be8f2f23-3d7e-4f51-9a17-b04531ee59c5")
+		)
+		(pin "2"
+			(uuid "b43f0d3b-797e-4264-9b25-0d540d5d4002")
+		)
+		(pin "3"
+			(uuid "1eacb687-dd64-4691-b49d-078406daa5bb")
+		)
+		(pin "1"
+			(uuid "e6ab60dd-8320-419c-b7b0-1283dfa926fb")
+		)
+		(instances
+			(project "feather-SAMD21&WD"
+				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -18341,85 +18078,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint_Small")
-		(at 351.79 175.26 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "77abd711-abd2-4e71-a696-aeb6293466b8")
-		(property "Reference" "TP3"
-			(at 351.79 173.736 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint_Small"
-			(at 353.0599 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 351.79 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 351.79 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 351.79 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f26dd32e-9e57-434d-bbcb-f4bc9d0752ca")
-		)
-		(instances
-			(project "feather-SAMD21&WD"
-				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
-					(reference "TP3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
 		(at 27.94 199.39 0)
 		(unit 1)
@@ -18511,7 +18169,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "78707e0a-7669-4d4e-856d-3057e32a5169")
-		(property "Reference" "TP14"
+		(property "Reference" "TP3"
 			(at 108.204 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18573,7 +18231,7 @@
 		(instances
 			(project "feather-SAMD21&WD"
 				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
-					(reference "TP14")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -19310,7 +18968,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D_Schottky"
+		(property "Value" "D_Schottky(BAT43W)"
 			(at 270.51 65.786 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19694,85 +19352,6 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Small")
-		(at 135.89 45.72 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "914ddf2c-7b9e-47a1-86a0-54f307453268")
-		(property "Reference" "TP12"
-			(at 135.89 47.244 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint_Small"
-			(at 134.6201 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 135.89 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 135.89 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 135.89 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d5ea1ce5-8843-4444-a5e8-72a8f1041c6c")
-		)
-		(instances
-			(project "feather-SAMD21&WD"
-				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
-					(reference "TP12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint_Small")
 		(at 285.75 190.5 180)
 		(unit 1)
 		(body_style 1)
@@ -19782,7 +19361,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "91c61362-b4a6-4113-935f-1f6500f7334f")
-		(property "Reference" "TP11"
+		(property "Reference" "TP5"
 			(at 284.226 190.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19844,7 +19423,7 @@
 		(instances
 			(project "feather-SAMD21&WD"
 				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
-					(reference "TP11")
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -21051,85 +20630,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint_Small")
-		(at 124.46 34.29 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b0e431e5-5005-425e-bd7f-dcbab4dc085f")
-		(property "Reference" "TP13"
-			(at 122.936 34.29 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint_Small"
-			(at 123.19 33.0201 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 119.38 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 119.38 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 124.46 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "378f84ba-4efd-4e32-9221-a7623f87c639")
-		)
-		(instances
-			(project "feather-SAMD21&WD"
-				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
-					(reference "TP13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VBUS")
 		(at 104.14 195.58 0)
 		(unit 1)
@@ -21530,85 +21030,6 @@
 			(project "feather-SAMD21&WD"
 				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
 					(reference "J8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint_Small")
-		(at 106.68 100.33 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ba7cb134-4659-4cb8-8f7d-b7a84379a75f")
-		(property "Reference" "TP7"
-			(at 110.49 100.33 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint_Small"
-			(at 105.41 99.0601 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 101.6 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 106.68 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "185da17e-74f0-47d7-87b6-2e4070e5e093")
-		)
-		(instances
-			(project "feather-SAMD21&WD"
-				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
-					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -22463,85 +21884,6 @@
 			(project "feather-SAMD21&WD"
 				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
 					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint_Small")
-		(at 363.22 119.38 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c8bb0be0-a8d5-4e43-ae46-f3c075a2c2c6")
-		(property "Reference" "TP5"
-			(at 367.03 119.38 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint_Small"
-			(at 361.95 118.1101 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 358.14 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 358.14 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 363.22 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0737fb5a-d035-422b-a0c7-8087f86a0e4c")
-		)
-		(instances
-			(project "feather-SAMD21&WD"
-				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
-					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -23830,103 +23172,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Power_Supervisor:MAX6369")
-		(at 361.95 180.34 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e9ca203e-6371-4475-95dd-b02f04a6074d")
-		(property "Reference" "U1"
-			(at 369.062 167.386 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MAX6369"
-			(at 369.062 192.786 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-8"
-			(at 378.46 191.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://datasheets.maximintegrated.com/en/ds/MAX6369-MAX6374.pdf"
-			(at 365.76 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Precision Pin-Selectable Watchdog Timer, 200us to 60s, SOT-23-8"
-			(at 361.95 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "8"
-			(uuid "ab98208a-a12a-4a03-99fb-f067ef46e4a7")
-		)
-		(pin "2"
-			(uuid "33169d7b-f409-4425-89fd-5d04709ad38a")
-		)
-		(pin "6"
-			(uuid "b1340da7-68a0-457b-9dd1-0f80e813cdad")
-		)
-		(pin "5"
-			(uuid "bb1ba2fa-f177-430e-be48-729085c387a3")
-		)
-		(pin "7"
-			(uuid "1236653f-867a-4094-8ea2-9aaf14a24de7")
-		)
-		(pin "3"
-			(uuid "827f8d7e-0d4e-4ad3-9056-d6a87dd64838")
-		)
-		(pin "4"
-			(uuid "c05dc666-75b6-45a5-ba2a-64363054bb69")
-		)
-		(pin "1"
-			(uuid "59345016-188b-4b2f-b023-3a6e9bdc3689")
-		)
-		(instances
-			(project "feather-SAMD21&WD"
-				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 41.91 113.03 0)
 		(unit 1)
@@ -24030,8 +23275,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "22pf"
-			(at 95.758 150.622 0)
+		(property "Value" "12.5pf"
+			(at 94.488 150.876 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24721,7 +23966,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "100n"
 			(at 355.5937 163.83 90)
 			(hide yes)
 			(show_name no)
@@ -24775,85 +24020,6 @@
 			(project "feather-SAMD21&WD"
 				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
 					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint_Small")
-		(at 139.7 144.78 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "fe17f408-0a56-47f2-af43-db5e08f15692")
-		(property "Reference" "TP17"
-			(at 139.7 148.59 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint_Small"
-			(at 140.9699 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 139.7 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 139.7 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 139.7 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "870e44a3-1d05-4853-8ce6-37f7c733fcaa")
-		)
-		(instances
-			(project "feather-SAMD21&WD"
-				(path "/dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
-					(reference "TP17")
 					(unit 1)
 				)
 			)

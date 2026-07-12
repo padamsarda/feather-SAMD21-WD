@@ -682,7 +682,7 @@
         "uuid": "dc113185-26d3-4d92-82e5-eafcaf8aa8e7"
       }
     ],
-    "used_designators": "C1-13,C15-22,#GND4,#GND10-11,R1-16,#FLG1-8,J1-10,#U$8,#U$10,#U$19-20,D1-6,#FRAME1,#PWR1-71,L1-3,TP1-17,U1-7,H1-6,FB1,SW1-3,#+3V1,JP1,JP3,X2,Y1",
+    "used_designators": "C1-13,C15-22,#GND4,#GND10-11,R1-16,#FLG1-8,J1-11,#U$8,#U$10,#U$19-20,D1-6,#FRAME1,#PWR1-71,L1-3,TP1-17,U1-8,H1-6,FB1,SW1-3,#+3V1,JP1,JP3,X2,Y1",
     "variants": []
   },
   "sheets": [
